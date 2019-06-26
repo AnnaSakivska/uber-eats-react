@@ -1,0 +1,31 @@
+.authorization-options {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.authorization-button {
+  width: 80px;
+  height: 40px;
+  border: 1px solid var(--whiter-than-white-grey_color);
+  box-sizing: border-box;
+  border-radius: 2px;
+  background: var(--white_color);
+}
+
+.authorization-button {
+  font-family: var(--roboto-font);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--dark_color);
+}
+
+.authorization-button_black {
+  background-color: var(--black_color);
+}
+
+.authorization-button_black {
+  color: var(--white_color);
+}

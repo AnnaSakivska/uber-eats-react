@@ -1,0 +1,11 @@
+html {
+  --white_color: #fff;
+  --white-grey_color: #626262;
+  --whiter-than-white-grey_color: #e0e0e0;
+  --dark_color: #1d1d1d;
+  --black_color: #262626;
+}
+
+body {
+  --roboto-font: "Roboto", sans-serif;
+}

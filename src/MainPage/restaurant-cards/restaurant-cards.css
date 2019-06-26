@@ -1,0 +1,70 @@
+
+.restaurant-cards__title {
+  font-family: var(--roboto-font);
+  font-size: 22px;
+  line-height: 34px;
+  color: var(--black_color);
+  padding-top: 56px;
+  margin: 0 0 16px;
+}
+
+.restaurant-cards__section {
+  margin-left: 82px;
+  margin-right: 82px;
+  margin-bottom: 64px;
+}
+
+.restaurant-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.restaurant-option__image-wrapper {
+  width: 318px;
+  height: 256px;
+  background: url("restaurant_m.png") no-repeat;
+  background-size: cover;
+}
+
+.restaurant-option__description {
+  width: 318px;
+  height: 110px;
+  padding-bottom: 20px;
+  margin-bottom: 16px;
+}
+
+.restaurant-option_grey-background {
+  background-color: rgba(117,117,117,0.04);
+}
+
+.restaurant-option__name {
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 4px;
+  font-family: var(--roboto-font);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black_color);
+  cursor: pointer;
+}
+
+.restaurant-option__average-price {
+  font-family: var(--roboto-font);
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--white-grey_color);
+  margin: 0;
+}
+
+.restaurant-option__cooking-time {
+  font-family: var(--roboto-font);
+  font-size: 13px;
+  line-height: 21px;
+  color: var(--black_color);
+  margin: 0;
+}
