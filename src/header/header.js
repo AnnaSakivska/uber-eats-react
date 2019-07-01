@@ -18,9 +18,6 @@ export default function Header() {
                     </div>
                     <DeliveryTerms/>
                     <AuthorOptions/>
-                    <a className="header__buying-link">
-                        <img className="header__buying-logo" src={basket} alt=""/>
-                    </a>
                 </div>
             </header>
     );

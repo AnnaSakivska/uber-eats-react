@@ -7,9 +7,10 @@
 }
 
 .header__inner-wrapper {
-  width: 965px;
-  margin: 0 auto;
+  /*width: 965px;*/
+  margin: 0 82px;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
   align-items: center;
 }
@@ -22,15 +23,17 @@
 .header__delivery-terms-wrapper {
   max-width: 390px;
   display: flex;
-  margin-right: 92px;
+  margin-right: 52px;
 }
 
 .header-authorization__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
   max-width: 176px;
-  margin-right: 17px;
+  margin-right: 52px;
 }
 
-.header__buying-link {
-  position: relative;
-  right: 1px;
-}
+
+

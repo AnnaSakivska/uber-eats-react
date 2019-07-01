@@ -6,6 +6,6 @@ html {
   --black_color: #262626;
 }
 
-body {
+html {
   --roboto-font: "Roboto", sans-serif;
 }
