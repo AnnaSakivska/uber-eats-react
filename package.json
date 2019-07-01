@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lint-staged": "^8.2.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
@@ -15,7 +16,8 @@
     "eject": "react-scripts eject",
     "rename-index": "node -e \"require('fs').rename('./build/index.html', './build/200.html', (err) => { console.log(err ? err : 'File renamed!') })\"",
     "predeploy": "npm run build && npm run rename-index",
-    "deploy": "cd build && surge --domain uber-eats-AnnaSakivska.surge.sh"
+    "deploy": "surge --project ./build --domain uber-eats-AnnaSakivska.surge.sh",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,7 +35,21 @@
     ]
   },
   "devDependencies": {
+    "husky": "^2.7.0",
+    "prettier": "^1.18.2",
     "surge": "^0.21.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format",
+      "pre-push": "npm run deploy",
+      "...": "..."
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,css}": [
+      "prettier --write",
+      "git add"
+    ]
   }
-
 }
