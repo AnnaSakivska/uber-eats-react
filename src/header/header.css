@@ -3,7 +3,7 @@
   height: 72px;
   margin: 0 auto;
   background: var(--white_color);
-  box-shadow: 0 0 16px  rgba(38, 38, 38, 0.16);
+  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
 }
 
 .header__inner-wrapper {
@@ -34,6 +34,3 @@
   max-width: 176px;
   margin-right: 52px;
 }
-
-
-

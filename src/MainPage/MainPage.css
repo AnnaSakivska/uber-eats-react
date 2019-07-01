@@ -1,16 +1,16 @@
 .main-page__title {
-    font-family: var(--roboto-font);
-    font-size: 22px;
-    line-height: 34px;
-    color: var(--black_color);
-    padding-top: 56px;
-    margin: 0 0 16px;
+  font-family: var(--roboto-font);
+  font-size: 22px;
+  line-height: 34px;
+  color: var(--black_color);
+  padding-top: 56px;
+  margin: 0 0 16px;
 }
 
 .main-page__section {
-    margin-left: 82px;
-    margin-right: 82px;
-    margin-bottom: 64px;
+  margin-left: 82px;
+  margin-right: 82px;
+  margin-bottom: 64px;
 }
 
 .main-page-cards {

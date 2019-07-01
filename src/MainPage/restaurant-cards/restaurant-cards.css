@@ -2,7 +2,6 @@
   width: 318px;
   height: 256px;
   margin-bottom: -5px;
-  /*background: url("restaurant_m.png") no-repeat;*/
   /*background-size: cover;*/
 }
 
@@ -11,10 +10,6 @@
   height: 110px;
   padding-bottom: 20px;
   margin-bottom: 16px;
-}
-
-.restaurant-card_grey-background {
-  background-color: rgba(117,117,117,0.04);
 }
 
 .restaurant-card__name {
