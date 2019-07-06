@@ -1,0 +1,45 @@
+.restaurant-label__wrapper {
+  box-sizing: border-box;
+  padding: 80px 654px 80px 81px;
+  background: url("img/restaurant-label.png") top center no-repeat;
+  background-size: cover;
+}
+
+.restaurant-label {
+  padding: 38px;
+  display: flex;
+  flex-direction: column;
+  background: var(--white_color);
+}
+
+.restaurant-label__information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.restaurant-label__name {
+  font-family: var(--roboto-font);
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--dark_color);
+  align-self: center;
+}
+
+.restaurant-label__description {
+  font-family: var(--roboto-font);
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--white-grey_color);
+}
+
+.restaurant-label__delivery {
+  font-family: var(--roboto-font);
+  font-size: 13px;
+  line-height: 15px;
+  color: var(--white_color);
+  background: var(--black_color);
+  border-radius: 16px;
+  align-self: center;
+  padding: 8px 16px;
+}
