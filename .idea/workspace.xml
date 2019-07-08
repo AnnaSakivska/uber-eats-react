@@ -1,40 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0369e97-9b74-4552-ac56-f1474801547f" name="Default Changelist" comment="new changes">
-      <change beforePath="$PROJECT_DIR$/src/components/AuthorizationButton/AuthorizationButton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AuthorizationButton/AuthorizationButton.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AuthorizationOptions/Authorization-options.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AuthorizationOptions/AuthorizationOptions.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AuthorizationOptions/img/basket.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Container/Container.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Container/container.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Delivery-terms/Delivery-terms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Delivery-terms/Delivery-terms.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Delivery-terms/img/location.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/img/white-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/MainPage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurant-card/Restaurant-card.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurant-card/restaurant-card.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurant/Restaurant.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurant/Restaurants-information.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurant/restaurant-label/Restaurant-label.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurant/restaurant-label/img/restaurant-label.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurant/restaurant-label/restaurant-label.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurant/restaurant-menu/Restaurant-menu.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurant/restaurant-menu/img/dish-picture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurant/restaurant-menu/restaurant-menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurant/restaurant-nav/Restaurant-nav.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurant/restaurant-nav/restaurant-nav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurants-search/Restaurant-search.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurants-search/img/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Restaurants-search/restaurants-search.css" beforeDir="false" />
+    <list default="true" id="d0369e97-9b74-4552-ac56-f1474801547f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/components/Restaurant-card/Restaurant-card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Restaurant-card/Restaurant-card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Restaurant-card/restaurant-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Restaurant-card/Restaurant-card.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -51,14 +20,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="340">
               <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Restaurant-card/Restaurant-card.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Restaurant-card/Restaurant-card.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -105,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/vars.css" />
-        <option value="$PROJECT_DIR$/src/MainPage/restaurants-search/restaurants-search.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/MainPage/restaurant-cards/restaurant-card.js" />
         <option value="$PROJECT_DIR$/src/MainPage/MainPage.js" />
@@ -140,8 +128,6 @@
         <option value="$PROJECT_DIR$/src/components/Container/Container.jsx" />
         <option value="$PROJECT_DIR$/src/components/Container/container.css" />
         <option value="$PROJECT_DIR$/src/components/Footer/footer.css" />
-        <option value="$PROJECT_DIR$/src/components/MainPage/MainPage.css" />
-        <option value="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" />
         <option value="$PROJECT_DIR$/src/components/Header/header.css" />
         <option value="$PROJECT_DIR$/src/components/Delivery-terms/Delivery-terms.jsx" />
         <option value="$PROJECT_DIR$/src/App.jsx" />
@@ -156,6 +142,10 @@
         <option value="$PROJECT_DIR$/src/components/Header/Header.jsx" />
         <option value="$PROJECT_DIR$/src/components/AuthorizationOptions/Authorization-options.jsx" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.jsx" />
+        <option value="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" />
+        <option value="$PROJECT_DIR$/src/components/MainPage/MainPage.css" />
+        <option value="$PROJECT_DIR$/src/components/Restaurant-card/Restaurant-card.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Restaurant-card/Restaurant-card.css" />
       </list>
     </option>
   </component>
@@ -181,6 +171,19 @@
               <item name="uber-eats-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="uber-eats-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uber-eats-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uber-eats-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uber-eats-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uber-eats-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Restaurant-card" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,7 +283,7 @@
       <workItem from="1562582034976" duration="6535000" />
       <workItem from="1562588748622" duration="1289000" />
       <workItem from="1562590149529" duration="219000" />
-      <workItem from="1562592289570" duration="2175000" />
+      <workItem from="1562592289570" duration="3591000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1561569819777</created>
@@ -387,16 +390,31 @@
       <option name="project" value="LOCAL" />
       <updated>1562594342326</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="new changes">
+      <created>1562594745238</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1562594745238</updated>
+    </task>
+    <task id="LOCAL-00017" summary="new changes">
+      <created>1562595774325</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1562595774325</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124818000" />
+    <option name="totallyTimeSpent" value="126234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49872124" visible="true" weight="0.2061012" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872124" visible="true" weight="0.2061012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.50127876" side_tool="true" weight="0.26041666" />
@@ -410,7 +428,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.8876488" weight="0.46153846" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.6755952" visible="true" weight="0.46481177" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6755952" weight="0.27986908" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4985119" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -478,27 +496,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="new changes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/img/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/restaurant-main/estaurant-nav.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurant/restaurant-nav/restaurant-nav.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurant/restaurant-menu/restaurant-menu.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StorCards.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurants-search/img/search.svg">
+    <entry file="file://$PROJECT_DIR$/../src/components/Restaurants-search/img/search.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainPage.js" />
@@ -556,7 +554,7 @@
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurant/Restaurants-information.jsx">
+    <entry file="file://$PROJECT_DIR$/../src/components/Restaurant/Restaurants-information.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
           <caret column="24" selection-start-column="24" selection-end-column="24" />
@@ -571,17 +569,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Restaurant/restaurant-main/restaurant-main.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/img/white-logo.svg">
+    <entry file="file://$PROJECT_DIR$/../src/components/Footer/img/white-logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurant/restaurant-label/restaurant-label.css">
+    <entry file="file://$PROJECT_DIR$/../src/components/Restaurant/restaurant-label/restaurant-label.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurant/restaurant-label/Restaurant-label.jsx">
+    <entry file="file://$PROJECT_DIR$/../src/components/Restaurant/restaurant-label/Restaurant-label.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
@@ -592,14 +590,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/static/css/main.001d34e4.chunk.css" />
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurants-search/restaurants-search.css">
+    <entry file="file://$PROJECT_DIR$/../src/components/Restaurants-search/restaurants-search.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurant/restaurant-menu/Restaurant-menu.jsx">
+    <entry file="file://$PROJECT_DIR$/../src/components/Restaurant/restaurant-menu/Restaurant-menu.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
@@ -609,7 +607,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurant/restaurant-nav/Restaurant-nav.jsx">
+    <entry file="file://$PROJECT_DIR$/../src/components/Restaurant/restaurant-nav/Restaurant-nav.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
@@ -619,7 +617,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurant-card/restaurant-card.css">
+    <entry file="file://$PROJECT_DIR$/../src/components/Restaurant-card/restaurant-card.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-352">
           <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
@@ -643,7 +641,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurant/Restaurant.jsx">
+    <entry file="file://$PROJECT_DIR$/../src/components/Restaurant/Restaurant.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
@@ -667,7 +665,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurant-card/Restaurant-card.jsx">
+    <entry file="file://$PROJECT_DIR$/../src/components/Restaurant-card/Restaurant-card.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
@@ -687,7 +685,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MainPage/MainPage.jsx">
+    <entry file="file://$PROJECT_DIR$/../src/components/MainPage/MainPage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
@@ -697,14 +695,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MainPage/MainPage.css">
+    <entry file="file://$PROJECT_DIR$/../src/components/MainPage/MainPage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Container/Container.jsx">
+    <entry file="file://$PROJECT_DIR$/../src/components/Container/Container.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
@@ -714,28 +712,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Container/container.css">
+    <entry file="file://$PROJECT_DIR$/../src/components/Container/container.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AuthorizationButton/AuthorizationButton.css">
+    <entry file="file://$PROJECT_DIR$/../src/components/AuthorizationButton/AuthorizationButton.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Delivery-terms/Delivery-terms.css">
+    <entry file="file://$PROJECT_DIR$/../src/components/Delivery-terms/Delivery-terms.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurants-search/Restaurant-search.jsx">
+    <entry file="file://$PROJECT_DIR$/../src/components/Restaurants-search/Restaurant-search.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
@@ -745,20 +743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/footer.css">
+    <entry file="file://$PROJECT_DIR$/../src/components/Footer/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AuthorizationOptions/AuthorizationOptions.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,7 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.jsx">
+    <entry file="file://$PROJECT_DIR$/../src/components/Header/Header.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
@@ -779,7 +767,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AuthorizationButton/AuthorizationButton.jsx">
+    <entry file="file://$PROJECT_DIR$/../src/components/AuthorizationButton/AuthorizationButton.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
@@ -789,7 +777,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Delivery-terms/Delivery-terms.jsx">
+    <entry file="file://$PROJECT_DIR$/../src/components/Delivery-terms/Delivery-terms.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
@@ -806,14 +794,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.css">
+    <entry file="file://$PROJECT_DIR$/../src/components/Header/Header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.jsx">
+    <entry file="file://$PROJECT_DIR$/../src/components/Footer/Footer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
@@ -823,13 +811,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AuthorizationButton/AuthorizationButton.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AuthorizationOptions/AuthorizationOptions.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Delivery-terms/Delivery-terms.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Delivery-terms/Delivery-terms.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MainPage/MainPage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MainPage/MainPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="340">
           <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Restaurant-card/Restaurant-card.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Restaurant-card/Restaurant-card.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
