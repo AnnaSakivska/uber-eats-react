@@ -1,11 +1,9 @@
-.main-page {
-  /*width: 965px;*/
+.Main-page {
   display: flex;
   flex-direction: column;
-  /*margin: 0 auto;*/
 }
 
-.main-page__title {
+.Main-page__title {
   font-family: var(--roboto-font);
   font-size: 22px;
   line-height: 34px;
@@ -14,11 +12,11 @@
   margin: 0 0 16px;
 }
 
-.main-page__section {
+.Main-page__section {
   margin-bottom: 64px;
 }
 
-.main-page-cards {
+.Main-page-cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -28,7 +26,7 @@
   margin: 0;
 }
 
-.main-page-cards::after {
+.Main-page-cards::after {
   content: "";
   flex: 0 0 33%;
 }

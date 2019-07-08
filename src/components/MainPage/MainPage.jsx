@@ -8,11 +8,11 @@ import { Container } from "../Container/Container.jsx";
 export default function MainPage() {
   return (
     <Container>
-      <div className="main-page">
+      <div className="Main-page">
         <RestaurantsSearch />
-        <section className="main-page__section">
-          <h2 className="main-page__title">Kyiv Restaurants</h2>
-          <ul className="main-page-cards">
+        <section className="Main-page__section">
+          <h2 className="Main-page__title">Kyiv Restaurants</h2>
+          <ul className="Main-page-cards">
             {restaurants.map((restaurant, i) => {
               return (
                 <RestaurantsCard
