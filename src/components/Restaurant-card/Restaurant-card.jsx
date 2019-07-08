@@ -7,7 +7,7 @@ export default function RestaurantsCard(props) {
     <li className="Restaurant-card">
       <Link to="/restaurant">
         <img
-          className="Restaurant-card__image-wrapper"
+          className="Restaurant-card__image"
           src={props.imageUrl}
           alt="image of food restaurant"
         />

@@ -3,7 +3,6 @@ import "./restaurant-nav.css";
 
 export default function RestaurantNav() {
   return (
-    <div>
       <ul className="restaurant-nav">
         <li className="restaurant-nav__option">
           <a className="restaurant-nav__option-link" href="#">
@@ -36,6 +35,5 @@ export default function RestaurantNav() {
           </a>
         </li>
       </ul>
-    </div>
   );
 }
