@@ -1,13 +1,13 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 import footerLogo from "./img/white-logo.svg";
 import { Container } from "../Container/Container.jsx";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="Footer">
       <Container>
-        <div className="footer__logo-wrapper">
+        <div className="Footer__logo-wrapper">
           <img className="logo" src={footerLogo} alt="Logo" />
         </div>
       </Container>

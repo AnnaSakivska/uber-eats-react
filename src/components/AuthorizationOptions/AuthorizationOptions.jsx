@@ -1,5 +1,5 @@
 import React from "react";
-import "./Authorization-options.css";
+import "./AuthorizationOptions.css";
 import basket from "./img/basket.svg";
 import { AuthorizationButton } from "../AuthorizationButton/AuthorizationButton.jsx";
 
