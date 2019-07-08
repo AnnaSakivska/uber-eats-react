@@ -11,7 +11,7 @@
   }
 }
 
-.restaurant-card {
+.Restaurant-card {
   animation-duration: 2s;
   animation-fill-mode: both;
   animation-timing-function: ease-in-out;
@@ -19,24 +19,24 @@
   animation-delay: 100ms;
 }
 
-.restaurant-card:hover {
+.Restaurant-card:hover {
   animation-name: bounce;
 }
 
-.restaurant-card__image-wrapper {
+.Restaurant-card__image-wrapper {
   width: 318px;
   height: 256px;
   margin-bottom: -5px;
 }
 
-.restaurant-card__description {
+.Restaurant-card__description {
   width: 318px;
   height: 110px;
   padding-bottom: 20px;
   margin-bottom: 16px;
 }
 
-.restaurant-card__name {
+.Restaurant-card__name {
   margin: 0;
   padding-top: 16px;
   padding-bottom: 4px;
@@ -47,7 +47,7 @@
   cursor: pointer;
 }
 
-.restaurant-card__average-price {
+.Restaurant-card__average-price {
   font-family: var(--roboto-font);
   font-size: 14px;
   line-height: 21px;
@@ -55,7 +55,7 @@
   margin: 0;
 }
 
-.restaurant-card__cooking-time {
+.Restaurant-card__cooking-time {
   font-family: var(--roboto-font);
   font-size: 13px;
   line-height: 21px;
