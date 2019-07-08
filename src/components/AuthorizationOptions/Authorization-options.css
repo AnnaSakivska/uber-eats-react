@@ -1,0 +1,18 @@
+.Authorization-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Authorization-option__form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 200px;
+}
+
+.Authorization-options__buying-link {
+  position: relative;
+  right: 1px;
+}
