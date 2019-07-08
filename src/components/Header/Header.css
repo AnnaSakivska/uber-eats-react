@@ -1,16 +1,13 @@
-.header {
-  width: 100%;
+.Header {
   height: 72px;
-  margin: 0 auto;
   background: var(--white_color);
   box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
 }
 
-.header__inner-wrapper {
-  width: 960px;
+.Header__inner-wrapper {
   display: flex;
-  margin: 0 auto;
   justify-content: space-between;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
 }

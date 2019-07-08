@@ -1,8 +1,8 @@
 .main-page {
-  width: 965px;
+  /*width: 965px;*/
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 .main-page__title {

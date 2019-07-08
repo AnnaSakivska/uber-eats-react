@@ -1,0 +1,21 @@
+.Authorization-button {
+  width: 80px;
+  height: 40px;
+  border: 1px solid var(--whiter-than-white-grey_color);
+  box-sizing: border-box;
+  border-radius: 2px;
+  background: var(--white_color);
+}
+
+.Authorization-button {
+  font-family: var(--roboto-font);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--dark_color);
+}
+
+.Authorization-button_black {
+  background-color: var(--black_color);
+  color: var(--white_color);
+}
