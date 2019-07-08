@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import logo from "./img/logo.svg";
 import DeliveryTerms from "../Delivery-terms/Delivery-terms.jsx";
-import AuthorizationOptions from "../AuthorizationOptions/Authorization-options.jsx";
+import AuthorizationOptions from "../AuthorizationOptions/AuthorizationOptions.jsx";
 import { Link } from "react-router-dom";
 import { Container } from "../Container/Container";
 
