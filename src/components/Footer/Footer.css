@@ -1,9 +1,9 @@
-.footer {
+.Footer {
   width: 100%;
   background-color: var(--black_color);
 }
 
-.footer__logo-wrapper {
+.Footer__logo-wrapper {
   padding-top: 56px;
   padding-bottom: 40px;
   /*width: 960px;*/
