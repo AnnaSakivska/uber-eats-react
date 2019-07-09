@@ -1,5 +1,5 @@
 import React from "react";
-import "./restaurant-nav.css";
+import "./RestaurantNav.css";
 
 export default function RestaurantNav() {
   return (

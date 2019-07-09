@@ -1,29 +1,30 @@
 .restaurant-label__wrapper {
   box-sizing: border-box;
-  padding: 80px 654px 80px 81px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background: url("img/restaurant-label.png") top center no-repeat;
   background-size: cover;
 }
 
-.restaurant-label {
+.Restaurant-label {
   padding: 38px;
+  width: 389px;
   display: flex;
   flex-direction: column;
   background: var(--white_color);
 }
-
-.restaurant-label__information {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .restaurant-label__name {
   font-family: var(--roboto-font);
   font-size: 36px;
   line-height: 42px;
   color: var(--dark_color);
   align-self: center;
+}
+
+.restaurant-label__information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .restaurant-label__description {

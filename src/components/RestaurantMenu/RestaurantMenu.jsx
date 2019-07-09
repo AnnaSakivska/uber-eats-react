@@ -1,10 +1,10 @@
 import React from "react";
-import "./restaurant-menu.css";
+import "./RestaurantMenu.css";
 import dishPicture from "./img/dish-picture.png";
 
 export default function restaurantMenu() {
   return (
-    <section className="restaurant-menu">
+    <section className="Restaurant-menu">
       <div className="restaurant-menu__container">
         <h3 className="restaurant-menu__title">Закуски</h3>
         <ul className="restaurant-menu__list">

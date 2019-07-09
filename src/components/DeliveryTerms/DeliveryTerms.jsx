@@ -1,5 +1,5 @@
 import React from "react";
-import "./Delivery-terms.css";
+import "./DeliveryTerms.css";
 
 export default function DeliveryTerms() {
   return (

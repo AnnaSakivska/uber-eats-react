@@ -1,8 +1,8 @@
 import React from "react";
 import "./MainPage.css";
-import RestaurantsSearch from "../Restaurants-search/Restaurant-search.jsx";
-import RestaurantsCard from "../Restaurant-card/Restaurant-card.jsx";
-import { restaurants } from "../Restaurant/Restaurants-information.jsx";
+import RestaurantsSearch from "../Search/Search.jsx";
+import RestaurantsCard from "../RestaurantCard/RestaurantCard.jsx";
+import { restaurants } from "../restaurants/restaurants.jsx";
 import { Container } from "../Container/Container.jsx";
 
 export default function MainPage() {
