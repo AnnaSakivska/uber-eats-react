@@ -1,46 +1,46 @@
 .Restaurant-card__image {
-    max-width: 310px;
-    height: 256px;
-    margin-bottom: -5px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    object-fit: cover;
-    transition: all .3s ease-in-out;
+  max-width: 310px;
+  height: 256px;
+  margin-bottom: -5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
 }
 
 .Restaurant-card:hover .Restaurant-card__image {
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 .Restaurant-card__description {
-    width: 310px;
-    padding-bottom: 20px;
-    margin-bottom: 16px;
+  width: 310px;
+  padding-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .Restaurant-card__name {
-    margin: 0;
-    padding-top: 16px;
-    padding-bottom: 4px;
-    font-family: var(--roboto-font);
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--black_color);
-    cursor: pointer;
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 4px;
+  font-family: var(--roboto-font);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black_color);
+  cursor: pointer;
 }
 
 .Restaurant-card__average-price {
-    font-family: var(--roboto-font);
-    font-size: 14px;
-    line-height: 21px;
-    color: var(--white-grey_color);
-    margin: 0;
+  font-family: var(--roboto-font);
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--white-grey_color);
+  margin: 0;
 }
 
 .Restaurant-card__cooking-time {
-    font-family: var(--roboto-font);
-    font-size: 13px;
-    line-height: 21px;
-    color: var(--black_color);
-    margin: 0;
+  font-family: var(--roboto-font);
+  font-size: 13px;
+  line-height: 21px;
+  color: var(--black_color);
+  margin: 0;
 }

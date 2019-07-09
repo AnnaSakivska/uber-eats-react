@@ -1,6 +1,6 @@
 import React from "react";
-import "./container.css";
+import "./Container.css";
 
 export function Container(props) {
-  return <div className="container">{props.children}</div>;
+  return <div className="Container">{props.children}</div>;
 }
