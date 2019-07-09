@@ -7,13 +7,13 @@ export default function RestaurantsCard(props) {
     <li className="Restaurant-card">
       <Link to="/restaurant">
         <img
-          className="Restaurant-card__image"
+          className="restaurant-card__image"
           src={props.imageUrl}
           alt="image of food restaurant"
         />
-        <div className="Restaurant-card__description">
-          <h2 className="Restaurant-card__name">{props.title}</h2>
-          <span className="Restaurant-card__average-price">
+        <div className="restaurant-card__description">
+          <h2 className="restaurant-card__name">{props.title}</h2>
+          <span className="restaurant-card__average-price">
             {props.priceBucket} •{" "}
             {props.categories
               .map(category => {
@@ -21,7 +21,7 @@ export default function RestaurantsCard(props) {
               })
               .join(" • ")}
           </span>
-          <h4 className="Restaurant-card__cooking-time">
+          <h4 className="restaurant-card__cooking-time">
             {props.etaRange.min} - {props.etaRange.max} Min
           </h4>
         </div>

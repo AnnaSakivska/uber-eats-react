@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.Delivery-terms__description {
+.delivery-terms__description {
   font-family: var(--roboto-font);
   font-weight: 300;
   font-size: 16px;
@@ -14,7 +14,7 @@
   color: var(--white-grey_color);
 }
 
-.Delivery-terms__time-settings {
+.delivery-terms__time-settings {
   width: 65px;
   height: 40px;
   border: 1px solid var(--whiter-than-white-grey_color);
@@ -23,14 +23,14 @@
   padding-left: 12px;
 }
 
-.Delivery-terms__time-settings::placeholder {
+.delivery-terms__time-settings::placeholder {
   font-family: var(--roboto-font);
   font-size: 16px;
   line-height: 24px;
   color: var(--dark_color);
 }
 
-.Delivery-terms__address {
+.delivery-terms__address {
   width: 292px;
   height: 40px;
   border: 1px solid var(--whiter-than-white-grey_color);
@@ -39,18 +39,18 @@
   padding-left: 36px;
 }
 
-.Delivery-terms__address::placeholder {
+.delivery-terms__address::placeholder {
   font-family: var(--roboto-font);
   font-size: 16px;
   line-height: 24px;
   color: var(--dark_color);
 }
 
-.Delivery-terms__location {
+.delivery-terms__location {
   position: relative;
 }
 
-.Delivery-terms__location:before {
+.delivery-terms__location:before {
   content: "";
   position: absolute;
   left: 12px;

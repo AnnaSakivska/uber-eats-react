@@ -10,10 +10,10 @@ export default function Header() {
   return (
     <header className="Header">
       <Container>
-        <div className="Header__inner-wrapper">
-          <div className="Header__logo-wrapper">
+        <div className="header__inner-wrapper">
+          <div className="header__logo-wrapper">
             <Link to="/">
-              <img className="Header__logo" src={logo} alt="Logo" />
+              <img className="header__logo" src={logo} alt="Logo" />
             </Link>
           </div>
           <DeliveryTerms />

@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <footer className="Footer">
       <Container>
-        <div className="Footer__logo-wrapper">
-          <img className="logo" src={footerLogo} alt="Logo" />
+        <div className="footer__logo-wrapper">
+          <img className="footer__logo" src={footerLogo} alt="Logo" />
         </div>
       </Container>
     </footer>

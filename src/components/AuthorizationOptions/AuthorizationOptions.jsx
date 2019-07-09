@@ -6,12 +6,12 @@ import { AuthorizationButton } from "../AuthorizationButton/AuthorizationButton.
 export default function AuthorizationOptions() {
   return (
     <div className="Authorization-options">
-      <form className="Authorization-option__form" action="#">
+      <form className="authorization-option__form" action="#">
         <AuthorizationButton />
       </form>
-      <a className="Authorization-options__buying-link">
+      <a className="authorization-options__buying-link">
         <img
-          className="Authorization-options__buying-logo"
+          className="authorization-options__buying-logo"
           src={basket}
           alt=""
         />

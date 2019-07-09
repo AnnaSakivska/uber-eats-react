@@ -10,9 +10,9 @@ export default function MainPage() {
     <Container>
       <div className="Main-page">
         <RestaurantsSearch />
-        <section className="Main-page__section">
-          <h2 className="Main-page__title">Kyiv Restaurants</h2>
-          <ul className="Main-page-cards">
+        <section className="main-page__section">
+          <h2 className="main-page__title">Kyiv Restaurants</h2>
+          <ul className="main-page-cards">
             {restaurants.map((restaurant, i) => {
               return (
                 <RestaurantsCard

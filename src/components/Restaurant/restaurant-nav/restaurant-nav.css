@@ -8,7 +8,7 @@
   border-bottom: solid 2px rgba(117, 117, 117, 0.2);
 }
 
-.Restaurant-nav__option {
+.restaurant-nav__option {
   padding-right: 40px;
   font-family: var(--roboto-font);
   font-size: 16px;
@@ -17,14 +17,14 @@
   padding-bottom: 29px;
 }
 
-.Restaurant-nav__option-link {
+.restaurant-nav__option-link {
   color: var(--white-grey_color);
 }
 
-.Restaurant-nav__option-link:hover {
+.restaurant-nav__option-link:hover {
   color: var(--white-grey_color);
 }
 
-.Restaurant-nav__option-link:hover {
+.restaurant-nav__option-link:hover {
   color: var(--dark_color);
 }

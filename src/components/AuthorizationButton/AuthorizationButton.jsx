@@ -6,7 +6,7 @@ export function AuthorizationButton() {
     <>
       <input className="Authorization-button" type="submit" value="Sign In" />
       <input
-        className="Authorization-button Authorization-button_black"
+        className="Authorization-button authorization-button_black"
         type="submit"
         value="Register"
       />
