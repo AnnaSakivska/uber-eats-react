@@ -3,13 +3,12 @@
   text-decoration: none;
   display: flex;
   flex-direction: row;
-  padding-left: 81px;
-  margin: 0;
-  border-bottom: solid 2px rgba(117, 117, 117, 0.2);
+  justify-content: space-between;
+  padding-left: 0;
 }
 
 .restaurant-nav__option {
-  padding-right: 40px;
+  /*padding-right: 40px;*/
   font-family: var(--roboto-font);
   font-size: 16px;
   line-height: 19px;
@@ -27,4 +26,11 @@
 
 .restaurant-nav__option-link:hover {
   color: var(--dark_color);
+}
+
+.restaurant-nav__bottom-line {
+  height: 2px;
+  color: blue;
+  background-color: rgba(117, 117, 117, 0.3);
+  border: none;
 }
