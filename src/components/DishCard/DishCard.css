@@ -1,0 +1,45 @@
+
+.Dish-card {
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+}
+.dish-card__description {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.dish-card__title {
+    font-family: var(--roboto-font);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--dark_color);
+    padding-left: 16px;
+    padding-right: 38px;
+}
+
+.dish-card__ingredients {
+    font-family: var(--roboto-font);
+    font-size: 13px;
+    line-height: 21px;
+    color: var(--black_color);
+    padding-left: 16px;
+}
+
+.dish-card__price {
+    font-family: var(--roboto-font);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: var(--dark_color);
+    padding-left: 16px;
+    padding-top: 58px;
+}
+
+.dish-card__picture {
+    width: 170px;
+    height: 160px;
+}

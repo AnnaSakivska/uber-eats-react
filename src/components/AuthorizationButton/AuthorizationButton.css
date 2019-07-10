@@ -5,6 +5,7 @@
   box-sizing: border-box;
   border-radius: 2px;
   background: var(--white_color);
+  cursor: pointer;
 }
 
 .Authorization-button {

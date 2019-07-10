@@ -2,8 +2,6 @@
   box-sizing: border-box;
   padding-top: 80px;
   padding-bottom: 80px;
-  background: url("img/restaurant-label.png") top center no-repeat;
-  background-size: cover;
 }
 
 .Restaurant-label {

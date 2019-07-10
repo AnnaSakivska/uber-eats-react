@@ -1,123 +1,38 @@
 import React from "react";
 import "./RestaurantMenu.css";
-import dishPicture from "./img/dish-picture.png";
+import {restaurantMenuInform} from "../restaurantMenuInform/restaurantMenuInform.jsx";
+import {DishCard} from "../DishCard/DishCard.jsx";
+
 
 export default function restaurantMenu() {
-  return (
-    <section className="Restaurant-menu">
-      <div className="restaurant-menu__container">
-        <h3 className="restaurant-menu__title">Закуски</h3>
-        <ul className="restaurant-menu__list">
-          <li className="restaurant-menu__dish dish-card">
-            <div className="restaurant-menu__dish-description">
-              <h3 className="restaurant-menu__dish-title">
-                Сельдь на бородинском хлебе
-              </h3>
-              <span className="restaurant-menu__dish-ingredients">
-                С яйцом и огурцом
-              </span>
-              <span className="restaurant-menu__dish-price">240 ₽</span>
+    return (
+        <section className="Restaurant-menu">
+            <div className="restaurant-menu__container">
+                {restaurantMenuInform.sections.map((section, i) => {
+                        return (
+                            <div key={section.uuid}>
+                                <span className={"restaurant-menu__title"} id={`${section.title}`}>
+                                    {section.title}
+                                </span>
+                                <div className={"restaurant-menu__list"}>
+                                    {section.itemUuids.map((item, i) => {
+                                            return (
+                                                <div className="restaurant-menu__dish">
+                                                    <DishCard
+                                                        id={item}
+                                                        key={item}/>
+                                                </div>
+                                            )
+                                        }
+                                    )}
+
+                                </div>
+                            </div>
+                        )
+                    }
+                )}
+
             </div>
-            <div className="restaurant-menu__dish-picture">
-              <img
-                className="restaurant-menu__picture"
-                src={dishPicture}
-                alt="Dish"
-              />
-            </div>
-          </li>
-          <li className="restaurant-menu__dish dish-card">
-            <div className="restaurant-menu__dish-description">
-              <h3 className="restaurant-menu__dish-title">
-                Сельдь на бородинском хлебе
-              </h3>
-              <span className="restaurant-menu__dish-ingredients">
-                С яйцом и огурцом
-              </span>
-              <span className="restaurant-menu__dish-price">240 ₽</span>
-            </div>
-            <div className="restaurant-menu__dish-picture">
-              <img
-                className="restaurant-menu__picture"
-                src={dishPicture}
-                alt="Dish picture"
-              />
-            </div>
-          </li>
-          <li className="restaurant-menu__dish dish-card">
-            <div className="restaurant-menu__dish-description">
-              <h3 className="restaurant-menu__dish-title">
-                Сельдь на бородинском хлебе
-              </h3>
-              <span className="restaurant-menu__dish-ingredients">
-                С яйцом и огурцом
-              </span>
-              <span className="restaurant-menu__dish-price">240 ₽</span>
-            </div>
-            <div className="restaurant-menu__dish-picture">
-              <img
-                className="restaurant-menu__picture"
-                src={dishPicture}
-                alt="Dish"
-              />
-            </div>
-          </li>
-          <li className="restaurant-menu__dish dish-card">
-            <div className="restaurant-menu__dish-description">
-              <h3 className="restaurant-menu__dish-title">
-                Сельдь на бородинском хлебе
-              </h3>
-              <span className="restaurant-menu__dish-ingredients">
-                С яйцом и огурцом
-              </span>
-              <span className="restaurant-menu__dish-price">240 ₽</span>
-            </div>
-            <div className="restaurant-menu__dish-picture">
-              <img
-                className="restaurant-menu__picture"
-                src={dishPicture}
-                alt="Dish"
-              />
-            </div>
-          </li>
-          <li className="restaurant-menu__dish dish-card">
-            <div className="restaurant-menu__dish-description">
-              <h3 className="restaurant-menu__dish-title">
-                Сельдь на бородинском хлебе
-              </h3>
-              <span className="restaurant-menu__dish-ingredients">
-                С яйцом и огурцом
-              </span>
-              <span className="restaurant-menu__dish-price">240 ₽</span>
-            </div>
-            <div className="restaurant-menu__dish-picture">
-              <img
-                className="restaurant-menu__picture"
-                src={dishPicture}
-                alt="Dish"
-              />
-            </div>
-          </li>
-          <li className="restaurant-menu__dish dish-card">
-            <div className="restaurant-menu__dish-description">
-              <h3 className="restaurant-menu__dish-title">
-                Сельдь на бородинском хлебе
-              </h3>
-              <span className="restaurant-menu__dish-ingredients">
-                С яйцом и огурцом
-              </span>
-              <span className="restaurant-menu__dish-price">240 ₽</span>
-            </div>
-            <div className="restaurant-menu__dish-picture">
-              <img
-                className="restaurant-menu__picture"
-                src={dishPicture}
-                alt="Dish"
-              />
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-  );
+        </section>
+    );
 }
