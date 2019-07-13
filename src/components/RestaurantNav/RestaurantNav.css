@@ -5,7 +5,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.Restaurant-nav::after {
+  content: "";
+  flex: 0 0 73%;
 }
 
 .restaurant-nav__option {
@@ -13,7 +19,6 @@
   font-family: var(--roboto-font);
   font-size: 16px;
   line-height: 19px;
-  padding-top: 32px;
   padding-bottom: 29px;
 }
 
@@ -22,11 +27,8 @@
 }
 
 .restaurant-nav__option-link:hover {
-  color: var(--white-grey_color);
-}
-
-.restaurant-nav__option-link:hover {
   color: var(--dark_color);
+  font-weight: 600;
 }
 
 .restaurant-nav__bottom-line {

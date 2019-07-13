@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding-top: 80px;
   padding-bottom: 80px;
+  margin-bottom: 33px;
 }
 
 .Restaurant-label {
@@ -15,6 +16,7 @@
   font-family: var(--roboto-font);
   font-size: 36px;
   line-height: 42px;
+  font-weight: normal;
   color: var(--dark_color);
   align-self: center;
 }

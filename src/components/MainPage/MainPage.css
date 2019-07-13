@@ -5,6 +5,7 @@
 
 .main-page__title {
   font-family: var(--roboto-font);
+  font-weight: normal;
   font-size: 22px;
   line-height: 34px;
   color: var(--black_color);

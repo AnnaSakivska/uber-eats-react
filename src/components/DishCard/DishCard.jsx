@@ -18,7 +18,7 @@ export function DishCard(props) {
           {restaurantMenuInform.items[props.id].price / 100}₽
         </span>
       </div>
-      <div className="dish-card__picture-wrapper" >
+      <div className="dish-card__picture-wrapper">
         {image && <img className="dish-card__picture" src={image} alt="Dish" />}
       </div>
     </div>

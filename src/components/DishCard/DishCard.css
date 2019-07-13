@@ -23,6 +23,7 @@
   font-family: var(--roboto-font);
   font-size: 16px;
   line-height: 24px;
+  font-weight: normal;
   color: var(--dark_color);
   flex-grow: 1;
   flex-shrink: 0;
@@ -32,7 +33,7 @@
   font-family: var(--roboto-font);
   font-size: 13px;
   line-height: 21px;
-  color: var(--black_color);
+  color: var(--white-grey_color);
   flex-grow: 3;
   flex-shrink: 2;
 }
