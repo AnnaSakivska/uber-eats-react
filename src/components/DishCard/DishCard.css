@@ -48,7 +48,7 @@
 }
 
 .dish-card__picture {
-  display:block;
+  display: block;
   width: 170px;
   height: 163px;
   object-fit: cover;
