@@ -5,7 +5,6 @@ import RestaurantMenu from "../RestaurantMenu/RestaurantMenu.jsx";
 import RestaurantNav from "../RestaurantNav/RestaurantNav.jsx";
 import { Container } from "../Container/Container";
 
-
 export function RestaurantPage() {
   return (
     <main className="Restaurant-page">

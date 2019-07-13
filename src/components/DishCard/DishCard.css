@@ -1,45 +1,55 @@
-
 .Dish-card {
-    border: 1px solid rgba(117, 117, 117, 0.2);
-    box-sizing: border-box;
-    border-radius: 2px;
-    display: flex;
-    flex-direction: row;
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  box-sizing: border-box;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  width: 470px;
+  padding-left: 16px;
+  padding-bottom: 0;
 }
+
 .dish-card__description {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  padding-right: 16px;
+  min-height: 163px;
+  flex-grow: 4;
+  flex-shrink: 1;
 }
 
 .dish-card__title {
-    font-family: var(--roboto-font);
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--dark_color);
-    padding-left: 16px;
-    padding-right: 38px;
+  font-family: var(--roboto-font);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--dark_color);
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .dish-card__ingredients {
-    font-family: var(--roboto-font);
-    font-size: 13px;
-    line-height: 21px;
-    color: var(--black_color);
-    padding-left: 16px;
+  font-family: var(--roboto-font);
+  font-size: 13px;
+  line-height: 21px;
+  color: var(--black_color);
+  flex-grow: 3;
+  flex-shrink: 2;
 }
 
 .dish-card__price {
-    font-family: var(--roboto-font);
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 21px;
-    color: var(--dark_color);
-    padding-left: 16px;
-    padding-top: 58px;
+  font-family: var(--roboto-font);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: var(--dark_color);
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .dish-card__picture {
-    width: 170px;
-    height: 160px;
+  display:block;
+  width: 170px;
+  height: 163px;
+  object-fit: cover;
 }
