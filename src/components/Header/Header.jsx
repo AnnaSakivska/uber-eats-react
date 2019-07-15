@@ -3,7 +3,6 @@ import "./Header.css";
 import logo from "./img/logo.svg";
 import DeliveryTerms from "../DeliveryTerms/DeliveryTerms.jsx";
 import AuthorizationOptions from "../AuthorizationOptions/AuthorizationOptions.jsx";
-import { Link } from "react-router-dom";
 import { Container } from "../Container/Container";
 
 export default function Header() {
@@ -12,9 +11,7 @@ export default function Header() {
       <Container>
         <div className="header__inner-wrapper">
           <div className="header__logo-wrapper">
-            <Link to="/">
               <img className="header__logo" src={logo} alt="Logo" />
-            </Link>
           </div>
           <DeliveryTerms />
           <AuthorizationOptions />
