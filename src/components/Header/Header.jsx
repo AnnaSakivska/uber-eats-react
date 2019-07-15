@@ -11,7 +11,7 @@ export default function Header() {
       <Container>
         <div className="header__inner-wrapper">
           <div className="header__logo-wrapper">
-              <img className="header__logo" src={logo} alt="Logo" />
+            <img className="header__logo" src={logo} alt="Logo" />
           </div>
           <DeliveryTerms />
           <AuthorizationOptions />
