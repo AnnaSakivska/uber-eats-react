@@ -19,9 +19,7 @@ export function DishCard(props) {
       </div>
       <div className="dish-card__picture-wrapper">
         {imageUrl !== undefined && (
-          <img className="dish-card__picture"
-               src={imageUrl}
-               alt="Dish" />
+          <img className="dish-card__picture" src={imageUrl} alt="Dish" />
         )}
       </div>
     </div>
