@@ -8,7 +8,7 @@ export default function RestaurantNav() {
     <>
       <Container>
         <ul className="Restaurant-nav">
-          {restaurantMenuInform.sections.map((section, i) => {
+          {restaurantMenuInform.sections.map((section) => {
             return (
               <a
                 className="restaurant-nav__option-link"
@@ -19,18 +19,6 @@ export default function RestaurantNav() {
               </a>
             );
           })}
-
-          {/*)}*/}
-
-          {/*{restaurantMenu.sections.map((section, i) => {*/}
-          {/*  return (*/}
-          {/*      <a*/}
-          {/*          href={`#${section.title}`}*/}
-          {/*          className={"Proposition-type__link"}*/}
-          {/*          key={section.title}*/}
-          {/*      >*/}
-          {/*        <li className="Proposition-type__item">{section.title}</li>*/}
-          {/*      </a>*/}
         </ul>
       </Container>
       <hr className="restaurant-nav__bottom-line" />
