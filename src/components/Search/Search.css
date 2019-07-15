@@ -1,12 +1,10 @@
 .search__container {
   height: 55px;
   margin-top: 97px;
-
 }
 
 .Search {
   position: relative;
-
 }
 
 .Search:before {

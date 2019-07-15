@@ -8,7 +8,7 @@ export default function RestaurantNav() {
     <>
       <Container>
         <ul className="Restaurant-nav">
-          {restaurantMenuInform.sections.map((section) => {
+          {restaurantMenuInform.sections.map(section => {
             return (
               <a
                 className="restaurant-nav__option-link"

@@ -7,6 +7,11 @@
   width: 470px;
   padding-left: 16px;
   padding-bottom: 0;
+  cursor: pointer;
+}
+
+.Dish-card:hover {
+  background: var(--whiter-than-white-grey_color);
 }
 
 .dish-card__description {
